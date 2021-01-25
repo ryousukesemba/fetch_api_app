@@ -4,13 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1.constansフォルダ内にconstants.dartを作成。（https://github.com/ryousukesemba/fetch_api_app/blob/master/lib/constants/constants.dart）
+2.servicesフォルダ内にAPIマネージャーを作成。（https://github.com/ryousukesemba/fetch_api_app/blob/master/lib/services/api_manager.dart）
+3.jsonからモデルを作成（https://github.com/ryousukesemba/fetch_api_app/blob/master/lib/models/news_info.dart）
+4.builderでviewに描画（https://github.com/ryousukesemba/fetch_api_app/blob/master/lib/screens/homepage/components/news_item.dart）
